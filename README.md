@@ -1,15 +1,7 @@
-Welcome to your new dbt project!
+Welcome to the dbt Mesh parent project!
 
-### Using the starter project
+### Using this project
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- There is one staging model that is already configured as a public model (stg_stripe__payment)
+- Create a production deployment environment and create a `dbt build` job.
+- Kick off job from the UI and ensure it is successful. This will be key for learners to ref across projects.
