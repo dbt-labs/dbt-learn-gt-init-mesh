@@ -1,0 +1,23 @@
+
+models:
+  - name: stg_stripe__payment
+    group: finance
+    access: public
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: payment_id
+        data_type: number
+        constraints:
+          - type: not_null
+      - name: order_id
+        data_type: number
+      - name: payment_method
+        data_type: text
+      - name: status
+        data_type: text
+      - name: amount
+        data_type: number
+      - name: created_at
+        data_type: date
