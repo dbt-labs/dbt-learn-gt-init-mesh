@@ -1,7 +1,6 @@
 
 models:
   - name: stg_stripe__payment
-    group: finance
     access: public
     config:
       contract:
